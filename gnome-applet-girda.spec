@@ -12,6 +12,7 @@ Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/girda/%{_orig_name}-%{version}.tar.gz
 # Source0-md5:	b0a7bb78dfaa0a9b94bc7956fcdd1070
 URL:		http://sourceforge.net/projects/girda/
+BuildRequires:	automake
 BuildRequires:	gnome-panel-devel >= 2.0.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	libglade2-devel >= 1:2.0.0
