@@ -38,6 +38,7 @@ wypisuje urz±dzenia Ir w zasiêgu.
 %setup -q -n %{_orig_name}-%{version}
 
 %build
+cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
