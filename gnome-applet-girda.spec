@@ -20,6 +20,7 @@ BuildRequires:	libgnome-devel >= 2.0.0
 BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	libgtop-devel >= 1:2.0.0
 BuildRequires:	libwnck-devel >= 0.13
+BuildRequires:	pkgconfig
 BuildRequires:	scrollkeeper >= 1:0.3.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
