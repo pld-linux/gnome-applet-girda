@@ -32,7 +32,7 @@ puerto Ir y lista los equipos Ir en la cobertura.
 
 %description -l pl
 Monitor IrD-y jest apletem GNOME. Ten aplet monitoruje porty Ir i
-wypisuje urzÄ…dzenia Ir w zasiÄ™gu.
+wypisuje urz±dzenia Ir w zasiêgu.
 
 %prep
 %setup -q -n %{_orig_name}-%{version}
@@ -47,8 +47,6 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf README TODO AUTHORS NEWS
-
 %find_lang %{name} --with-gnome --all-name
 
 %clean
@@ -56,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README TODO AUTHORS NEWS
 %attr(755,root,root) %{_bindir}/*
 %{_libdir}/bonobo/servers/*.server
 %{_datadir}/%{_orig_name}
