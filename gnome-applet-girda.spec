@@ -2,8 +2,8 @@
 %define _orig_name girda_applet
 
 Summary:	GNOME IrDA monitor
-Summary(es):	Monitador de IrDA para GNOME
-Summary(pl):	Monitor IrDA dla GNOME
+Summary(es.UTF-8):   Monitador de IrDA para GNOME
+Summary(pl.UTF-8):   Monitor IrDA dla GNOME
 Name:		gnome-applet-girda
 Version:	2.0.3
 Release:	1
@@ -28,13 +28,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GNOME IrDA Monitor is a GNOME applet. The applet is monitoring the Ir
 port and lists Ir devices in range.
 
-%description -l es
+%description -l es.UTF-8
 El monitor de IrDA es un applet de GNOME. Este applet monitora el
 puerto Ir y lista los equipos Ir en la cobertura.
 
-%description -l pl
+%description -l pl.UTF-8
 Monitor IrD-y jest apletem GNOME. Ten aplet monitoruje porty Ir i
-wypisuje urz±dzenia Ir w zasiêgu.
+wypisuje urzÄ…dzenia Ir w zasiÄ™gu.
 
 %prep
 %setup -q -n %{_orig_name}-%{version}
