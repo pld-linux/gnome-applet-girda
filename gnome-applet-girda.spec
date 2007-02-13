@@ -2,8 +2,8 @@
 %define _orig_name girda_applet
 
 Summary:	GNOME IrDA monitor
-Summary(es.UTF-8):   Monitador de IrDA para GNOME
-Summary(pl.UTF-8):   Monitor IrDA dla GNOME
+Summary(es.UTF-8):	Monitador de IrDA para GNOME
+Summary(pl.UTF-8):	Monitor IrDA dla GNOME
 Name:		gnome-applet-girda
 Version:	2.0.3
 Release:	1
